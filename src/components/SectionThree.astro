@@ -1,0 +1,48 @@
+---
+import Icons from "@/icons/Icons.astro";
+import CtaButton from "./CtaButton.astro";
+import SectionContainer from "./SectionContainer.astro";
+import ArrowRight from "@/icons/ArrowRight.astro";
+---
+
+<SectionContainer class="text-white-neutral mt-20 mb-20">
+  <div class="flex justify-center">
+    <img
+      class="w-auto px-7 mt-7 mb-14"
+      src="/images/illustration-stay-productive.png"
+      alt=""
+    />
+  </div>
+  <div>
+    <h2 class="text-xl px-7 text-left font-heading font-semibold">
+      Stay productive, wherever you are
+    </h2>
+  </div>
+  <div class="text-left">
+    <p class="text-base text-wrap px-7 py-7">
+      Never let location be an issue when accessing your files. Fylo has you
+      covered for all of your file storage needs.
+      <br />
+      <br />
+      Securely share files and folders with friends, family and colleagues for live
+      collaboration. No email attachments required.
+    </p>
+  </div>
+
+  <div
+    class="px-7 flex justify-start mb-1 items-center gap-3 underline underline-offset-8 decoration-cyan"
+  >
+    <CtaButton
+      class="rounded-none bg-transparent font-normal text-sm bg-opacity-0 pl-0 pr-0 px-0 py-0 my-0 text-cyan shadow-transparent"
+      href="https://www.github.com/justcoddev"
+    >
+      See how Fylo works
+      <Icons
+        class="rounded-full shadow-md p-1 flex items-center justify-center"
+        href="https://www.linkedin.com/in/justcoddev"
+      >
+        <ArrowRight class="size-3" />
+      </Icons>
+    </CtaButton>
+  </div>
+</SectionContainer>
