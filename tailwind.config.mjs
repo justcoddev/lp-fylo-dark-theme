@@ -33,7 +33,7 @@ export default {
 				"blue": "hsl(198, 60%, 50%)",
 				"light-red": "hsl(0, 100%, 63%)",
 				// ### Neutral
-				"White": "hsl(0, 0%, 100%)"
+				"white-neutral": "hsl(0, 0%, 100%)"
 			}
 		},
 
