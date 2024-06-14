@@ -1,0 +1,76 @@
+---
+import Icons from "@/icons/Icons.astro";
+import FacebookIcon from "@/icons/FacebookIcon.astro";
+import InstagramIcon from "@/icons/InstagramIcon.astro";
+import TwitterIcon from "@/icons/TwitterIcon.astro";
+import SectionContainer from "./SectionContainer.astro";
+---
+
+<SectionContainer
+  class="bg-dark-blue-3 text-white-neutral mx-0 ml-0 mr-0 px-7 pb-5 mt-52 pt-52 text-base"
+>
+  <div
+    class="mx-3 flex flex-col gap-7 xl:flex-row xl:items-center xl:w-full xl:justify-evenly"
+  >
+    <section class="">
+      <img
+        src="/images/logo.svg"
+        class="w-1/2 pt-7 xl:w-auto xl:h-20 text-white"
+        alt=""
+      />
+
+      <div class="mt-7 flex flex-col gap-7 text-n-very-pale-blue text-xl">
+        <div class="flex gap-6 items-start content-center">
+          <img class="size-5" src="/images/icon-location.svg" alt="" />
+          <p class="text-left">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="flex flex-col items-start gap-3">
+      <div class="pb-10 flex flex-col gap-7 text-n-very-pale-blue">
+        <div class="flex gap-6 items-center content-center">
+          <img class="size-4" src="/images/icon-phone.svg" alt="" />
+          <a href="">+1-543-123-4567</a>
+        </div>
+        <div class="flex gap-6 items-center content-center">
+          <img class="w-5 h-4" src="/images/icon-email.svg" alt="" />
+          <a href="">example@fylo.com</a>
+        </div>
+      </div>
+    </section>
+    <section class="flex flex-col items-start gap-3 pb-10">
+      <a href="">About Us</a>
+      <a href="">Jobs</a>
+      <a href="">Press</a>
+      <a href="">Blog</a>
+    </section>
+    <section class="flex flex-col items-start gap-3 pb-10">
+      <a href=""> Contact Us</a>
+      <a href="">Terms</a>
+      <a href="">Privacy</a>
+    </section>
+    <section class="flex gap-3 justify-center">
+      <Icons class="rounded-full border bg-transparent" href="">
+        <FacebookIcon class="size-5 md:size-6 px-1 py-1" />
+      </Icons>
+      <Icons class="rounded-full border bg-transparent" href="">
+        <InstagramIcon class="size-5 md:size-6 px-1 py-1" />
+      </Icons>
+      <Icons class="rounded-full border bg-transparent" href="">
+        <TwitterIcon class="size-5 md:size-6 px-1 py-1" />
+      </Icons>
+    </section>
+  </div>
+</SectionContainer>
+<p class="attribution font-normal bg-white-neutral text-sm px-2">
+  Challenge by <a
+    href="https://www.frontendmentor.io?ref=challenge"
+    target="_blank">Frontend Mentor</a
+  >. Coded by <a href="https://github.com/justcoddev" target="_blank"
+    ><strong>justcoddev</strong></a
+  >.
+</p>
