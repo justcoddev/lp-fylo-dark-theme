@@ -34,7 +34,12 @@ export default {
 				"light-red": "hsl(0, 100%, 63%)",
 				// ### Neutral
 				"white-neutral": "hsl(0, 0%, 100%)"
-			}
+			},
+			// ## Shadows
+			boxShadow: {
+
+				"testimonial": "0px 0px 10px 1px rgba(0, 0, 0, 0.5)"
+			},
 		},
 
 	},
