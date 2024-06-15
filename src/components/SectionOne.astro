@@ -5,8 +5,13 @@ import SectionContainer from "./SectionContainer.astro";
 
 <div class="absolute -z-10">
   <img
-    class="w-full px-0 pl-0 mx-1 ml-0 mr-0 mt-28 pt-36"
+    class="w-full px-0 pl-0 mx-1 ml-0 mr-0 mt-28 pt-36 md:hidden"
     src="/images/bg-curvy-mobile.svg"
+    alt=""
+  />
+  <img
+    class="w-full px-0 pl-0 mx-1 ml-0 mr-0 mt-28 pt-36 md:block md:pt-44 md:mt-[42rem]"
+    src="/images/bg-curvy-desktop.svg"
     alt=""
   />
   <div class="bg-dark-blue-2 px-auto py-32">
@@ -16,18 +21,20 @@ import SectionContainer from "./SectionContainer.astro";
 <SectionContainer class="text-white-neutral mt-10">
   <div class="flex justify-center">
     <img
-      class="w-auto px-7 mt-7 mb-14"
+      class="w-auto px-7 mt-7 mb-14 md:w-3/4"
       src="/images/illustration-intro.png"
       alt=""
     />
   </div>
   <div>
-    <h1 class="text-3xl font-heading font-bold-raleway">
+    <h1 class="text-3xl font-heading font-bold-raleway md:text-5xl md:px-44">
       All your files in one secure location, accessible anywhere.
     </h1>
   </div>
   <div>
-    <p class="text-lg text-wrap px-7 py-7">
+    <p
+      class="text-lg text-wrap px-7 py-7 md:px-96 md:text-xl md:pt-14 text-white-neutral/70"
+    >
       Fylo stores all your most important files in one secure location. Access
       them wherever you need, share and collaborate with friends family, and
       co-workers.
